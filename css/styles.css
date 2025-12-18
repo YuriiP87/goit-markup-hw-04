@@ -416,7 +416,10 @@ img {
     padding: 40px 32px;
 
     background-color: #4d5ae5;
-    color: #ffffff;
+
+    color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
     transform: translateY(100%);
     transition-property: transform;
